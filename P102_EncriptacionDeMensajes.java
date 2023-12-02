@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P102_EncriptacionDeMensajesConFunciones {
+public class P102_EncriptacionDeMensajes {
 
 	public static void main(String[] args) {
 
@@ -36,7 +36,7 @@ public class P102_EncriptacionDeMensajesConFunciones {
 	}
 
 	public static int obtieneDesplazamiento(String cadena) {
-		return ('p' - cadena.charAt(0)) % 26;
+		return ('p' - cadena.charAt(0));
 	}
 
 	public static int cuentaVocalesDelString(String cadena) {
