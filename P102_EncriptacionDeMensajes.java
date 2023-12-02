@@ -20,7 +20,10 @@ public class P102_EncriptacionDeMensajes {
 
 			// Ahora codificamos
 			cadenaCifrada = cifraCadenaConXDesplazamiento(cadena, desplazamiento);
-
+			
+			// Imprimir cadena codificada
+			System.out.println(cadenaCifrada);
+			
 			// Contar vocales sin tilde
 			if (!cadenaCifrada.equals("FIN")) {
 
